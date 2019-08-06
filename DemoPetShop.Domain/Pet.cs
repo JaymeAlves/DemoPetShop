@@ -5,6 +5,7 @@ using System.Text;
 
 namespace DemoPetShop.Domain
 {
+    [BsonIgnoreExtraElements]
     public class Pet : Entity
     {
         public string Species { get; set; }

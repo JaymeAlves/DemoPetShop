@@ -9,6 +9,6 @@ namespace DemoPetShop.Domain.Base.Interface
     public interface IEntity
     {
         [BsonRepresentation(BsonType.ObjectId)]
-        string Id { get; set; }
+        public string Id { get; set; }
     }
 }
